@@ -13,6 +13,97 @@ body {
     padding: 20px 0;
 }
 
+.project-header {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.stars {
+    font-size: 32px;
+    color: gold;
+    letter-spacing: 6px;
+    margin-bottom: 8px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sticky Navbar */
+.navbar {
+    background-color: #14181c;
+    padding: 12px 0;
+    border-bottom: 1px solid #2c3e50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.navbar .nav-list li {
+    position: relative;
+}
+
+.navbar .nav-list li a {
+    text-decoration: none;
+    color: #e5e5e5;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding: 8px 16px 6px;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+/* Highlight aktif / hover */
+.navbar .nav-list li a:hover,
+.navbar .nav-list li a.active {
+background: rgba(91, 140, 255, 0.15);
+border-color: #5b8cff;
+    color: #fff;
+    transform: translateY(-2px);
+box-shadow: 0 3px 12px rgba(91, 140, 255, 0.25);
+}
+
+/* Efek underbar halus */
+.navbar .nav-list li a::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+background-color: #5b8cff;
+    transition: width 0.3s ease;
+}
+
+.navbar .nav-list li a:hover::after,
+.navbar .nav-list li a.active::after {
+    width: 100%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .navbar .nav-list {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-list li a {
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
 /* Container*/
 .container {
     max-width: 1200px;
@@ -31,7 +122,7 @@ body {
 
 .project-header h1 {
     font-size: 2.5rem;
-    color: #ff4655;
+    color: #5b8cff;
     margin-bottom: 10px;
 }
 
@@ -413,5 +504,3 @@ aside {
     font-style: italic;
     padding: 40px;
 }
-
-
