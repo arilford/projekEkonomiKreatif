@@ -1,7 +1,0 @@
-- [ ] Tambahkan input upload 1 file (image/video) di semua index1.html..index5.html pada area form.
-- [ ] Ubah script.js: baca file dari input, validasi image/video, konversi ke dataURL, simpan ke report (media).
-- [ ] Update script.js: render preview media (img/video) di kartu laporan.
-- [ ] Update script.js: saat edit, tetap simpan teks; media tidak auto terisi ke input, namun preview media tetap tampil jika ada.
-- [ ] Tambahkan styling media preview di CSS/style.css.
-- [ ] Test manual: tambah laporan (upload) + refresh + edit + hapus.
-- [ ] Pastikan tidak ada error di console.
