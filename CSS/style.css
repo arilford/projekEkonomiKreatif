@@ -28,7 +28,11 @@ body {
 
 /* Sticky Navbar */
 .navbar {
+<<<<<<< HEAD
     background-color: #ffffff;
+=======
+    background-color: #14181c;
+>>>>>>> ff3d18050425004f080c16233f53372cab32c01e
     padding: 12px 0;
     border-bottom: 1px solid #2c3e50;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -66,11 +70,19 @@ body {
 /* Highlight aktif / hover */
 .navbar .nav-list li a:hover,
 .navbar .nav-list li a.active {
+<<<<<<< HEAD
     background: rgba(255, 70, 85, 0.15);
     border-color: #ff4655;
     color: #fff;
     transform: translateY(-2px);
     box-shadow: 0 3px 12px rgba(255, 70, 85, 0.25);
+=======
+background: rgba(91, 140, 255, 0.15);
+border-color: #5b8cff;
+    color: #fff;
+    transform: translateY(-2px);
+box-shadow: 0 3px 12px rgba(91, 140, 255, 0.25);
+>>>>>>> ff3d18050425004f080c16233f53372cab32c01e
 }
 
 /* Efek underbar halus */
@@ -81,7 +93,11 @@ body {
     left: 0;
     width: 0;
     height: 2px;
+<<<<<<< HEAD
     background-color: #ff4655;
+=======
+background-color: #5b8cff;
+>>>>>>> ff3d18050425004f080c16233f53372cab32c01e
     transition: width 0.3s ease;
 }
 
@@ -142,7 +158,11 @@ body {
 
 .project-header h1 {
     font-size: 2.5rem;
+<<<<<<< HEAD
     color: #4f46e5;
+=======
+    color: #5b8cff;
+>>>>>>> ff3d18050425004f080c16233f53372cab32c01e
     margin-bottom: 10px;
 }
 
@@ -547,6 +567,7 @@ footer {
     color: #9aa0a6;
     font-style: italic;
     padding: 40px;
+<<<<<<< HEAD
 }
 
 
@@ -611,4 +632,6 @@ footer {
 .article-content-1 .nav-list li a:hover::after,
 .article-content-1 .nav-list li a.active::after {
     width: 100%;
+=======
+>>>>>>> ff3d18050425004f080c16233f53372cab32c01e
 }
