@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant Agent Bug Tracker</title>
+    <title>Apex Legends Bug Tracker</title>
 <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
      <header class="project-header">
-            <h1>Valorant Bug Reports</h1>
-            <p>Sistem pelaporan bug untuk agent Valorant</p>
+        <img class="project-header-image" src="CSS/Image/ApexH.jpeg" alt="Header">
+        <div class="project-header-overlay">
+            <h1>Apex Legends</h1>
+        </div>
     </header>
 
      <main class="main-content">
    
     <section id="content">
         <article class="article-content">
-             <h2>Filter Agent</h2><br>
+             <h2>Filter Legends</h2><br>
            <select id="agentFilter">
-                <option value="">Semua Agent</option>
-                <option value="Brimstone">Brimstone</option>
-                <option value="Jett">Jett</option>
-                <option value="Phoenix">Phoenix</option>
-                <option value="Sage">Sage</option>
-                <option value="Sova">Sova</option>
+                <option value="">Semua Legends</option>
+                <option value="Bloodhound">Bloodhound</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Gibraltar">Gibraltar</option>
+                <option value="Lifeline">Lifeline</option>
+                <option value="Pathfinder">Pathfinder</option>
+                <option value="Wraith">Wraith</option>
             </select>
         </article>
 
@@ -32,12 +35,13 @@
             <form id="bugForm">
                 <div class="form-row">
                     <select id="agentSelect" required>
-                        <option value="">Pilih Agent</option>
-                        <option value="Brimstone">Brimstone</option>
-                        <option value="Jett">Jett</option>
-                        <option value="Phoenix">Phoenix</option>
-                        <option value="Sage">Sage</option>
-                        <option value="Sova">Sova</option>
+                        <option value="">Pilih Legends</option>
+                        <option value="Bloodhound">Bloodhound</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Gibraltar">Gibraltar</option>
+                        <option value="Lifeline">Lifeline</option>
+                        <option value="Pathfinder">Pathfinder</option>
+                        <option value="Wraith">Wraith</option>
                     </select>
                     <select id="categorySelect" required>
                         <option value="">Pilih Kategori</option>
@@ -48,6 +52,7 @@
                     </select>
                 </div>
                 <textarea id="description" placeholder="Jelaskan bug secara detail (Cantumkan dng Map)" required></textarea>
+                <input type="file" id="mediaUpload" accept="image/*,video/*" />
                 <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
             </form>
         </article>
@@ -67,7 +72,7 @@
     </section>
 </main>
     <footer>
-        Copyright © 2026 by DeBugReport All rights reserved.
+        Copyright © 2026 by DeBugging All rights reserved.
     </footer>
     </div>
     <script src="script.js" defer></script>
