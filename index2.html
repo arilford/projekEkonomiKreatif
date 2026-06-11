@@ -1,81 +1,77 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobile Legends Bug Tracker</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Legends Bug Tracker</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class="project-header">
-<<<<<<< HEAD
-        <img class="project-header-image" src="CSS/Image/MLH.jpeg" alt="Header">
-        <div class="project-header-overlay">
-            <h1>Mobile Legends</h1>
-        </div>
-=======
-        <h1>Mobile Legends Bug Reports</h1>
-        <p>Sistem pelaporan bug</p>
->>>>>>> ff3d18050425004f080c16233f53372cab32c01e
-    </header>
+  <header class="project-header">
+    <img class="project-header-image" src="CSS/Image/MLH.jpeg" alt="Header">
+    <div class="project-header-overlay">
+      <h1>Mobile Legends</h1>
+    </div>
+  </header>
 
-    <main class="main-content">
-        <section id="content">
-            <article class="article-content">
-                <h2>Filter Heroes</h2><br>
-                <select id="agentFilter">
-                    <option value="">Semua Heroes</option>
-                    <option value="Brody">Brody</option>
-                    <option value="Balmond">Balmond</option>
-                    <option value="Minotaur">Minotaur</option>
-                    <option value="Alucard">Alucard</option>
-                    <option value="Saber">Saber</option>
-                </select>
-            </article>
+  <main class="main-content">
+    <section id="content">
+      <article class="article-content">
+        <h2>Filter Heroes</h2><br>
+        <select id="agentFilter">
+          <option value="">Semua Heroes</option>
+          <option value="Brody">Brody</option>
+          <option value="Balmond">Balmond</option>
+          <option value="Minotaur">Minotaur</option>
+          <option value="Alucard">Alucard</option>
+          <option value="Saber">Saber</option>
+        </select>
+      </article>
 
-            <article class="article-content">
-                <h2>Laporkan Bug Baru</h2>
-                <form id="bugForm">
-                    <div class="form-row">
-                        <select id="agentSelect" required>
-                            <option value="">Pilih Hero</option>
-                            <option value="Brody">Brody</option>
-                            <option value="Balmond">Balmond</option>
-                            <option value="Minotaur">Minotaur</option>
-                            <option value="Alucard">Alucard</option>
-                            <option value="Saber">Saber</option>
-                        </select>
-                        <select id="categorySelect" required>
-                            <option value="">Pilih Kategori</option>
-                            <option value="Movement">Movement</option>
-                            <option value="Ultimate">Ultimate</option>
-                            <option value="Skill">Skill</option>
-                            <option value="Other">Lainnya</option>
-                        </select>
-                    </div>
-                    <textarea id="description" placeholder="Jelaskan bug secara detail (Cantumkan deckbuild dan mode match)" required></textarea>
-                    <input type="file" id="mediaUpload" accept="image/*,video/*" />
-                    <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
-                </form>
-            </article>
+      <article class="article-content">
+        <h2>Laporkan Bug Baru</h2>
+        <form id="bugForm">
+          <div class="form-row">
+            <select id="agentSelect" required>
+              <option value="">Pilih Hero</option>
+              <option value="Brody">Brody</option>
+              <option value="Balmond">Balmond</option>
+              <option value="Minotaur">Minotaur</option>
+              <option value="Alucard">Alucard</option>
+              <option value="Saber">Saber</option>
+            </select>
+            <select id="categorySelect" required>
+              <option value="">Pilih Kategori</option>
+              <option value="Movement">Movement</option>
+              <option value="Ultimate">Ultimate</option>
+              <option value="Skill">Skill</option>
+              <option value="Other">Lainnya</option>
+            </select>
+          </div>
+          <textarea id="description" placeholder="Jelaskan bug secara detail (Cantumkan deckbuild dan mode match)" required></textarea>
+          <input type="file" id="mediaUpload" accept="image/*,video/*" />
+          <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
+        </form>
+      </article>
 
-            <article class="article-content">
-                <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
-                <div id="reports"></div>
-                <button id="clearAll">Hapus Semua Laporan</button>
-            </article>
+      <article class="article-content">
+        <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
+        <div id="reports"></div>
+        <button id="clearAll">Hapus Semua Laporan</button>
+      </article>
 
-            <article class="article-content">
-                <h3 class="h3">Kembali ke beranda</h3>
-                <button class="button" onclick="window.location.href='home.html'">Home</button>
-            </article>
-        </section>
-    </main>
+      <article class="article-content">
+        <h3 class="h3">Kembali ke beranda</h3>
+        <button class="button" onclick="window.location.href='home.html'">Home</button>
+      </article>
+    </section>
+  </main>
 
-    <footer>
-        Copyright © 2026 by DeBugging All rights reserved.
-    </footer>
+  <footer>
+    Copyright © 2026 by DeBugging All rights reserved.
+  </footer>
 
-    <script src="script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
+

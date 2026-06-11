@@ -1,86 +1,79 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Legends Bug Tracker</title>
-<link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Legends Bug Tracker</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-     <header class="project-header">
-<<<<<<< HEAD
-        <img class="project-header-image" src="CSS/Image/ApexH.jpeg" alt="Header">
-        <div class="project-header-overlay">
-            <h1>Apex Legends</h1>
-        </div>
-=======
-            <h1>Apex Legends Bug Reports</h1>
-            <p>Sistem pelaporan bug</p>
->>>>>>> ff3d18050425004f080c16233f53372cab32c01e
-    </header>
-
-     <main class="main-content">
-   
-    <section id="content">
-        <article class="article-content">
-             <h2>Filter Legends</h2><br>
-           <select id="agentFilter">
-                <option value="">Semua Legends</option>
-                <option value="Bloodhound">Bloodhound</option>
-                <option value="Bangalore">Bangalore</option>
-                <option value="Gibraltar">Gibraltar</option>
-                <option value="Lifeline">Lifeline</option>
-                <option value="Pathfinder">Pathfinder</option>
-                <option value="Wraith">Wraith</option>
-            </select>
-        </article>
-
-        <article class="article-content">
-             <h2>Laporkan Bug Baru</h2>
-            <form id="bugForm">
-                <div class="form-row">
-                    <select id="agentSelect" required>
-                        <option value="">Pilih Legends</option>
-                        <option value="Bloodhound">Bloodhound</option>
-                        <option value="Bangalore">Bangalore</option>
-                        <option value="Gibraltar">Gibraltar</option>
-                        <option value="Lifeline">Lifeline</option>
-                        <option value="Pathfinder">Pathfinder</option>
-                        <option value="Wraith">Wraith</option>
-                    </select>
-                    <select id="categorySelect" required>
-                        <option value="">Pilih Kategori</option>
-                        <option value="Movement">Movement</option>
-                        <option value="Ulti">Ultimate</option>
-                        <option value="Skill">Skill</option>
-                        <option value="Other">Lainnya</option>
-                    </select>
-                </div>
-                <textarea id="description" placeholder="Jelaskan bug secara detail (Cantumkan dng Map)" required></textarea>
-                <input type="file" id="mediaUpload" accept="image/*,video/*" />
-                <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
-            </form>
-        </article>
-            
-
-        <article class="article-content" class="wrap">
-            <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
-            <div id="reports"></div>
-            <button id="clearAll">Hapus Semua Laporan</button>
-        </article>
-
-        <article class="article-content" class="wrap">
-                <h3 class="h3">Kembali ke beranda</h3>
-                <button class="button" onclick="window.location.href='home.html'">Home</button>
-        </article>
-
-    </section>
-</main>
-    <footer>
-        Copyright © 2026 by DeBugging All rights reserved.
-    </footer>
+  <header class="project-header">
+    <img class="project-header-image" src="CSS/Image/ApexH.jpeg" alt="Header">
+    <div class="project-header-overlay">
+      <h1>Apex Legends</h1>
     </div>
-    <script src="script.js" defer></script>
+  </header>
+
+  <main class="main-content">
+    <section id="content">
+      <article class="article-content">
+        <h2>Filter Legends</h2><br>
+        <select id="agentFilter">
+          <option value="">Semua Legends</option>
+          <option value="Bloodhound">Bloodhound</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Gibraltar">Gibraltar</option>
+          <option value="Lifeline">Lifeline</option>
+          <option value="Pathfinder">Pathfinder</option>
+          <option value="Wraith">Wraith</option>
+        </select>
+      </article>
+
+      <article class="article-content">
+        <h2>Laporkan Bug Baru</h2>
+        <form id="bugForm">
+          <div class="form-row">
+            <select id="agentSelect" required>
+              <option value="">Pilih Legends</option>
+              <option value="Bloodhound">Bloodhound</option>
+              <option value="Bangalore">Bangalore</option>
+              <option value="Gibraltar">Gibraltar</option>
+              <option value="Lifeline">Lifeline</option>
+              <option value="Pathfinder">Pathfinder</option>
+              <option value="Wraith">Wraith</option>
+            </select>
+            <select id="categorySelect" required>
+              <option value="">Pilih Kategori</option>
+              <option value="Movement">Movement</option>
+              <option value="Ulti">Ultimate</option>
+              <option value="Skill">Skill</option>
+              <option value="Other">Lainnya</option>
+            </select>
+          </div>
+          <textarea id="description" placeholder="Jelaskan bug secara detail (Cantumkan dng Map)" required></textarea>
+          <input type="file" id="mediaUpload" accept="image/*,video/*" />
+          <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
+        </form>
+      </article>
+
+      <article class="article-content" class="wrap">
+        <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
+        <div id="reports"></div>
+        <button id="clearAll">Hapus Semua Laporan</button>
+      </article>
+
+      <article class="article-content" class="wrap">
+        <h3 class="h3">Kembali ke beranda</h3>
+        <button class="button" onclick="window.location.href='home.html'">Home</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    Copyright © 2026 by DeBugging All rights reserved.
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
 

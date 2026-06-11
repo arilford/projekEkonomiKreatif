@@ -1,77 +1,77 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Point Blank Bug Tracker</title>
-    <link rel="stylesheet" href="CSS/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Point Blank Bug Tracker</title>
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header class="project-header">
-        <img class="project-header-image" src="CSS/Image/PBH.jpg" alt="Header">
-        <div class="project-header-overlay">
-            <h1>Point Blank</h1>
-            </h1>
-        </div>
-    </header>
+  <header class="project-header">
+    <img class="project-header-image" src="CSS/Image/PBH.jpg" alt="Header">
+    <div class="project-header-overlay">
+      <h1>Point Blank</h1>
+    </div>
+  </header>
 
-    <main class="main-content">
-        <section id="content">
-            <article class="article-content">
-                <h2>Filter Karakter</h2><br>
-                <select id="agentFilter">
-                    <option value="">Semua Karakter</option>
-                    <option value="AcidPool">Acid Pool (Paul)</option>
-                    <option value="Leopard">Leopard</option>
-                    <option value="Hide">Hide</option>
-                    <option value="RedBulls">Red Bulls</option>
-                    <option value="ViperRed">Viper Red</option>
-                </select>
-            </article>
+  <main class="main-content">
+    <section id="content">
+      <article class="article-content">
+        <h2>Filter Karakter</h2><br>
+        <select id="agentFilter">
+          <option value="">Semua Karakter</option>
+          <option value="AcidPool">Acid Pool (Paul)</option>
+          <option value="Leopard">Leopard</option>
+          <option value="Hide">Hide</option>
+          <option value="RedBulls">Red Bulls</option>
+          <option value="ViperRed">Viper Red</option>
+        </select>
+      </article>
 
-            <article class="article-content">
-                <h2>Laporkan Bug Baru</h2>
-                <form id="bugForm">
-                    <div class="form-row">
-                        <select id="agentSelect" required>
-                            <option value="">Pilih Karakter</option>
-                            <option value="AcidPool">Acid Pool (Paul)</option>
-                            <option value="Leopard">Leopard</option>
-                            <option value="Hide">Hide</option>
-                            <option value="RedBulls">Red Bulls</option>
-                            <option value="ViperRed">Viper Red</option>
-                        </select>
-                        <select id="categorySelect" required>
-                            <option value="">Pilih Kategori</option>
-                            <option value="Movement">Movement / Gerak</option>
-                            <option value="Headshot">Headshot / Hitbox</option>
-                            <option value="Skill">Skill / Trait</option>
-                            <option value="Other">Lainnya</option>
-                        </select>
-                    </div>
-                    <textarea id="description" placeholder="Jelaskan bug secara detail (mode: DV, HS, lobby, server, dan senjata)" required></textarea>
-                    <input type="file" id="mediaUpload" accept="image/*,video/*" />
-                    <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
-                </form>
-            </article>
+      <article class="article-content">
+        <h2>Laporkan Bug Baru</h2>
+        <form id="bugForm">
+          <div class="form-row">
+            <select id="agentSelect" required>
+              <option value="">Pilih Karakter</option>
+              <option value="AcidPool">Acid Pool (Paul)</option>
+              <option value="Leopard">Leopard</option>
+              <option value="Hide">Hide</option>
+              <option value="RedBulls">Red Bulls</option>
+              <option value="ViperRed">Viper Red</option>
+            </select>
+            <select id="categorySelect" required>
+              <option value="">Pilih Kategori</option>
+              <option value="Movement">Movement / Gerak</option>
+              <option value="Headshot">Headshot / Hitbox</option>
+              <option value="Skill">Skill / Trait</option>
+              <option value="Other">Lainnya</option>
+            </select>
+          </div>
+          <textarea id="description" placeholder="Jelaskan bug secara detail (mode: DV, HS, lobby, server, dan senjata)" required></textarea>
+          <input type="file" id="mediaUpload" accept="image/*,video/*" />
+          <button type="submit" id="formSubmitBtn">Tambah Laporan</button>
+        </form>
+      </article>
 
-            <article class="article-content">
-                <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
-                <div id="reports"></div>
-                <button id="clearAll">Hapus Semua Laporan</button>
-            </article>
+      <article class="article-content">
+        <h2>Laporan Bug (<span id="reportCount">0</span>)</h2>
+        <div id="reports"></div>
+        <button id="clearAll">Hapus Semua Laporan</button>
+      </article>
 
-            <article class="article-content">
-                <h3 class="h3">Kembali ke beranda</h3>
-                <button class="button" onclick="window.location.href='home.html'">Home</button>
-            </article>
-        </section>
-    </main>
+      <article class="article-content">
+        <h3 class="h3">Kembali ke beranda</h3>
+        <button class="button" onclick="window.location.href='home.html'">Home</button>
+      </article>
+    </section>
+  </main>
 
-    <footer>
-        Copyright © 2026 by DeBugging All rights reserved.
-    </footer>
+  <footer>
+    Copyright © 2026 by DeBugging All rights reserved.
+  </footer>
 
-    <script src="script.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
+
